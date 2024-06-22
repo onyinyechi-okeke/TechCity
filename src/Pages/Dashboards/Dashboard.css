@@ -409,8 +409,7 @@
   }
   
   .ic-adjust {
-    display: flex;
-    justify-content: space-between;
+    display: block;
   }
   
   .ic-align3 {
