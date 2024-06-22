@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
       <NavBar isMobileMenuOpen={isMobileMenuOpen} toggleMobileMenu={toggleMobileMenu}/>
-      <InvestorDashboard />
+      <Home />
     </div>
   )
 }

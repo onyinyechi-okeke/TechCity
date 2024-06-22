@@ -64,7 +64,7 @@ body {
     z-index: 1;
     justify-content: space-between;
     padding: 0 2%;
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
   .navbar-mobile {

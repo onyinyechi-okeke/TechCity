@@ -12,7 +12,7 @@ function InvestorDashboard() {
     { id: 2, icon: piechart, p: "Switch to Investor's Account" }
   ];
   return (
-    <div style={{width: '100%'}}>
+    <div style={{width: '100%', height: '100vh'}}>
       <SideBar navItems={navItemsInvestor}/>
       <MainInvestorDashBoard />
     </div>
