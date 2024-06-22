@@ -1,0 +1,35 @@
+.transaction-align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-align1 {
+    display: flex;
+    gap: 8px;
+}
+
+.transaction-align2 {
+    background-color: #0b0b0b;
+    font-size: 14px;
+    padding: 2%;
+    margin: 1% 0 3% 0;
+    border-radius: 6px;
+}
+
+.transaction-align3 {
+    display: grid;
+    grid-template-columns: repeat(5, 22%);
+    padding-bottom: 1%;
+}
+
+.transaction-line {
+    background-color: rgb(77, 73, 73);
+    width: 87%;
+    height: 0.5px;
+    margin-left: 3%;
+}
+
+.transaction-align4 {
+    text-align: center;
+    padding: 5% 0 10% 0;
+}

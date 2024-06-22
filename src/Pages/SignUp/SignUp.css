@@ -1,0 +1,300 @@
+.investor-container {
+    padding: 2% 3%;
+}
+
+.home-header .investor-p {
+    font-size: 15px;
+}
+
+.signup-form {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.signup-align {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-first {
+    width: 48%;
+    padding: 10px 12px;
+}
+
+.signup-input {
+    border: none;
+    outline: none;
+    background-color: #363636;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.signup-input1 {
+    margin-bottom: 2%;
+}
+
+.signup-rest {
+    width: 100%;
+    padding: 10px 12px;
+}
+
+.signup-rest1 {
+    width: 100%;
+    flex: 1;
+}
+
+.signup-select {
+    border: none;
+    outline: none;
+    background-color: #363636;
+    color: white;
+    margin-bottom: 2%;
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.signup-btn {
+    background-color: #EEA837;
+    color: white;
+    border: none;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.signup-last {
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-last span{
+  color: #EEA837;
+  cursor: pointer;
+}
+
+.signup-last1 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-last1 span{
+  color: #EEA837;
+}
+
+.signup-input::placeholder {
+    color: rgb(206, 199, 199);
+    font-size: 14px;
+}
+
+.specific-input::placeholder {
+    color: rgb(147, 145, 145); 
+}
+
+input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            -webkit-box-shadow: 0 0 0 30px #363636 inset !important;
+            -webkit-text-fill-color: white !important;
+        }
+
+.password-align {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #363636;
+    padding: 10px 12px;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.password-align span {
+    font-size: 12px;
+    margin-right: 10px;
+    color: #EEA837;
+    cursor: pointer;
+}
+
+/* Custom arrow with space to the right */
+.signup-select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg width="35" height="35" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.5 9.5L12.5 15.5L18.5 9.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 30px center;
+    background-size: 15px 15px;
+    padding-right: 30px; 
+    color: rgb(206, 199, 199);
+}
+
+/* Custom checkbox styling */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.custom-checkbox {
+    display: none;
+}
+
+.custom-checkbox + .custom-label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+
+.custom-checkbox + .custom-label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+
+.custom-checkbox:checked + .custom-label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 4px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+@media (max-width: 768px) {
+    .investor-container {
+        padding: 20% 6% 10% 6%;
+    }
+    
+    .home-header .investor-p {
+        font-size: 16px;
+    }
+    
+    .home-header h2 {
+        font-size: 1.8rem;
+        margin-bottom: 3%;
+    } 
+
+    .signup-form {
+        margin-top: 6%;
+    }
+    
+    .signup-first {
+        padding: 22px 28px;
+    }
+    
+    .signup-input1 {
+        margin-bottom: 5%;
+    }
+    
+    .signup-rest {
+        padding: 22px 28px;
+    }
+    
+    
+    .signup-btn {
+        background-color: #EEA837;
+        color: white;
+        border: none;
+        margin: 5% 0;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .password-align {
+        padding: 22px 28px;
+        margin-bottom: 7%;
+    }
+    
+    .password-align span {
+        font-size: 16px;
+        margin-right: 10px;
+        color: #EEA837;
+        cursor: pointer;
+    }
+
+    .checkbox-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    .signup-input {
+      font-size: 18px;
+    }
+
+    .signup-select {
+        width: 100%;
+        margin-bottom: 5%;
+        padding: 22px 18px;
+    }
+
+    .signup-last1 {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 430px) {
+    .investor-container{
+    padding: 30% 6% 10% 6%;
+    }
+
+    .signup-rest {
+        padding: 17px 18px;
+    }
+
+    .password-align {
+        padding: 17px 18px;
+        margin-bottom: 7%;
+    }
+
+    .signup-first {
+        padding: 17px 18px;
+    }
+
+    .signup-select {
+        padding: 17px 18px;
+    }
+
+    .password-align span {
+        font-size: 14px;
+    }
+    
+}

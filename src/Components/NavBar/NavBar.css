@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363636;
+    font-family: sans-serif;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.navbar {
+    color: rgb(243, 240, 240);
+    background-color: #0B0C0C;
+    width: 100%;
+    height: 11%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 0 2%;
+}
+
+.navbar-list {
+    list-style: none;
+}
+
+.navbar-list2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+
+.navbar-align2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+.navbarmobile {
+    color: rgb(243, 240, 240);
+    background-color: #0B0C0C;
+    width: 100%;
+    height: 11%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: space-between;
+    padding: 0 2%;
+    border: 1px solid grey;
+}
+
+  .navbar-mobile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .img1 {
+    display: none;
+  }
+
+  .img2 {
+    display: flex;
+  }
+
+  .navbarmobile-align {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: auto;
+    height: 100vh;
+    background-color: #0B0C0C;
+    color: white;
+    padding: 4% 3% 6% 2%;
+  }
+
+  .navbar-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbarmobile-align1 {
+  width: auto;
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+  margin-top: 8%;
+  padding-left: 3%;
+  
+}
+
+.navbarmobile-align2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10%;
+}
+
+.navbarmobile-align img {
+  width: 30px;
+  height: 30px;
+}
+
+.adjust-colour {
+  color: rgb(220, 215, 215);
+}
+
+.navbarmobile-align3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 6%;
+}
+
+.buttondiv {
+  display: flex;
+  justify-content: center;
+}
+
+.buttondiv button {
+  background-color: #363636;
+  color: white;
+  width: 95%;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 4%;
+}
+}

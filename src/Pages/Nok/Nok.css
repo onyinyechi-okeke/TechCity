@@ -1,0 +1,10 @@
+.Nok-container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.Nok-container p {
+    font-size: 12px;
+    color: #eea837;
+}

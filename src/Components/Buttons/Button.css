@@ -1,0 +1,11 @@
+.HB button {
+    padding: 8px 12px;
+    color: black;
+    background-color: #EEA837;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+}

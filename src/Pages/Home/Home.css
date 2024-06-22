@@ -1,0 +1,113 @@
+.home-container {
+width:49%;
+margin-top: 5%;
+background-color: #0B0C0C;
+color: rgb(243, 240, 240);
+margin-left: auto;
+margin-right: auto;
+color: rgb(223, 219, 219);
+}
+
+.home-container1 {
+    padding: 6% 3%;
+}
+
+.home-header h2{
+  font-size: 1.7rem;
+}
+
+.home-header p{
+    font-size: 18px;
+    color: rgb(171, 170, 170);
+  }
+
+.home-stabilize {
+    margin-top: 5%;
+    border-radius: 6px;
+    background-color: #363636;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.home-align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+    -moz-transition: transform 0.2s ease-in-out;
+    -ms-transition: transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+}
+
+.home-align:hover {
+    background-color: rgb(70, 69, 69);
+    cursor: pointer;
+}
+
+.home-align1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.home-align1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.home-align1 p {
+    font-size: 14px;
+    color: rgb(171, 170, 170);
+}
+
+.home-align:nth-child(1)::after,
+.home-align:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 13%; /* Adjust this value to match the start of your paragraph */
+  width: calc(100% - 13%); /* Adjust width based on the left offset */
+  border-bottom: 
+   solid rgb(83, 82, 82); /* Adjust border color and width as needed */
+}
+
+@media (max-width: 768px) {
+    .home-container{
+        width: 100%;
+        height: 100vh;
+        padding: 20% 6% 10% 6%;
+        margin-top: 0;
+    }
+
+    .home-stabilize {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 430px) {
+    .home-container {
+        padding: 30% 6% 10% 6%;
+    }
+
+    .home-align {
+        padding: 5% 7%;
+    }
+
+    .home-align1 p {
+        font-size: 12px;
+        padding-top: 3%;
+    }
+
+    .home-header h2{
+        font-size: 1.8rem;
+      }
+      
+      .home-header p{
+          font-size: 18px;
+      }
+}
