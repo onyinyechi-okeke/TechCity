@@ -235,7 +235,7 @@ input:-webkit-autofill,
 
 @media (max-width: 820px) {
     .investor-container {
-        padding: 20% 6% 10% 6%;
+        padding: 20% 6% 10% 10%;
     }
     
     .home-host {
@@ -303,11 +303,16 @@ input:-webkit-autofill,
 
     .signup-input {
         font-size: 1.1rem;
-        padding: 1rem 1.4rem;
     }
 
     .signup-select {
         font-size: 1rem;
     }
-    
+
+    .signup-select, .signup-input1, .signup-rest, .password-align {
+        padding: 1rem 1.4rem;
+    }
+
+    .custom-checkbox + .custom-label {
+      font-size: 0.8rem;
 }
