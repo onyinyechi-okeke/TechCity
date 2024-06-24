@@ -3,7 +3,7 @@ import './LogIn.css'
 
 function LogIn({isPasswordVisible, togglePassword, handleClick, ID, CE, IS}) {
   return (
-    <main className=' home-container login-container' style={{width: '47%', marginTop: '7%', backgroundColor: '#0b0b0b', marginLeft:'auto', marginRight: 'auto', color: 'white', borderRadius: '4px'}}>
+    <main className=' home-host login-container'>
         <div className='login-header'>
             <h2>Welcome Back</h2>
             <p className='investor-p'>Be part of the fastest growing real estate company in Africa</p>

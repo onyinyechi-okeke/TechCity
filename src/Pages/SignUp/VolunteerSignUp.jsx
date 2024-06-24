@@ -3,7 +3,7 @@ import './SignUp.css'
 
 function VolunteerSignUp({isPasswordVisible, togglePassword}) {
   return (
-    <main className='home-host investor-container' style={{width: '47%', marginTop: '7%', backgroundColor: '#0b0b0b', marginLeft:'auto', marginRight: 'auto', color: 'white', borderRadius: '4px'}}>
+    <main className='home-host investor-container'>
         <div className='home-header'>
             <h2 className='investor-h'>Join Tech City Africa</h2>
             <p className='investor-p'>Be part of the fastest growing real estate company in Africa</p>

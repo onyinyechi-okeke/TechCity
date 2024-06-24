@@ -3,7 +3,7 @@ import './LogIn.css'
 
 function ConfirmEmail({handleClick, CP}) {
   return (
-    <main className= 'cp-container home-container' style={{width: '47%', marginTop: '7%', backgroundColor: '#0b0b0b', marginLeft:'auto', marginRight: 'auto', color: 'white', borderRadius: '4px'}}>
+    <main className= 'cp-container home-host'>
         <div className='cp-header'>
             <h2>Change Password</h2>
         </div>
