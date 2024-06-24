@@ -3,7 +3,7 @@ import './LogIn.css'
 
 function ConfirmPassword({isPasswordVisible, togglePassword}) {
   return (
-    <main className='home-container cp-container'>
+    <main className=' cp-container' style={{width: '47%', marginTop: '7%', backgroundColor: '#0b0b0b', marginLeft:'auto', marginRight: 'auto', color: 'white', borderRadius: '4px'}}>
         <div className='cp-header'>
             <h2>Change Password</h2>
         </div>
