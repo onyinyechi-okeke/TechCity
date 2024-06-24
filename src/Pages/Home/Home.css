@@ -94,7 +94,11 @@
     }
 
     .home-header h2{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+      }
+
+      .home-header {
+        width: 85%;
       }
 
       .home-header p {

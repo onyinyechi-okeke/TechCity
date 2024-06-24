@@ -5,6 +5,7 @@
 
 .transaction-align1 {
     display: flex;
+    align-items: center;
     gap: 8px;
 }
 
@@ -58,7 +59,7 @@
     }
 
     .transaction-align h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .transaction-align2 {
@@ -70,8 +71,8 @@
 
     }
 
-    .transaction-align {
-        font-size: 1.3rem;
+    .transaction-align1 p {
+        font-size: 1rem;
     }
 
     .transaction-align3 div:not(:first-child) {
