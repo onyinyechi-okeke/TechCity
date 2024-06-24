@@ -1,6 +1,8 @@
 .home-container {
     width:47%;
+    height: 100%;
     margin-top: 7%;
+    margin-bottom: 20%;
     background-color: #0b0b0b;
     color: rgb(243, 240, 240);
     margin-left: auto;
@@ -90,6 +92,7 @@
 
 @media (max-width: 820px) {
     .home-container {
+        width: 100%;
         padding: 20% 6% 10% 6%;
         margin-top: 0;
     }
