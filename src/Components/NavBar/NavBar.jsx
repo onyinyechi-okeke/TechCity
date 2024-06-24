@@ -23,7 +23,7 @@ function NavBar({isMobileMenuOpen, toggleMobileMenu}) {
         </div>
 
         <div className='navbar-align1'>
-            <ul style={{display: 'flex', gap: '20px'}}>
+            <ul style={{display: 'flex', gap: '2.5rem'}}>
                 {Lists.map((list)=>(
                     <li key={list}className='navbar-list'>{list}</li>
                 ))}

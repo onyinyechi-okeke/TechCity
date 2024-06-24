@@ -1,7 +1,9 @@
 import React from 'react'
+
 import './SignUp.css'
 
-function InvestorSignUp({isPasswordVisible, togglePassword}) {
+function InvestorSignUp({isPasswordVisible, togglePassword, ID, handleClick, LI}) {
+
   return (
     <main className='home-container investor-container'>
         <div className='home-header'>
@@ -56,8 +58,8 @@ function InvestorSignUp({isPasswordVisible, togglePassword}) {
                 <label for="acceptTerms" class="custom-label">Remember me</label>
             </div>
 
-           <button className='signup-rest signup-btn'>Register as an Investor</button>
-           <div className='signup-last'><p>Already have an account? <span>Login</span></p></div>
+           <button className='signup-rest signup-btn' onClick={() => handleClick(ID)}>Register as an Investor</button>
+           <div className='signup-last'><p>Already have an account? <span onClick={() => handleClick(LI)}>Login</span></p></div>
     </form>
 
         

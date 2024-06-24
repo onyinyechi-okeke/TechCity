@@ -1,5 +1,4 @@
 import React from 'react'
-import home from '../../assets/Home.svg'
 import user from '../../assets/User.svg'
 import help from '../../assets/help-circle.svg'
 import hero from '../../assets/hero2.svg'
@@ -10,10 +9,10 @@ function SideBar({navItems}) {
 
   return (
     <div className='sidebar-container'>
-          
+               
               <div className='sidebar-align1'>
-              <div  className='sidebar-align2'>
-                 <CiHome size={20}/>
+              <div  className='sidebar-align2' style={{color: '#eea837', borderRight: '4px solid #eea837'}}>
+                 <CiHome size={25}/>
                  <p>Dashboard</p>
                 </div>
         
@@ -23,6 +22,7 @@ function SideBar({navItems}) {
                 </div>
               </div>
 
+             <div>
               <div>
                 <div className='sidebar-align2'>
                 <img src={hero} alt='an icon' />
@@ -40,9 +40,10 @@ function SideBar({navItems}) {
               </div>
 
           <div className='sidebar-buttondiv'>
-            <button><img src={help} alt='an icon' />Guide</button>
-            <button style={{backgroundColor: ' #EEA837', color: 'black', fontWeight: '600', marginTop: '4%'}}>
+            <button style={{width: '95%'}}><img src={help} alt='an icon' />Guide</button>
+            <button style={{backgroundColor: ' #EEA837', color: 'black', fontWeight: '600', marginTop: '4%', width: '95%'}}>
               <img src={withdraw} alt='an icon' />Withdraw</button>
+            </div>
             </div>
           </div>
   )

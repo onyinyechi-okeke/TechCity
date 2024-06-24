@@ -14,10 +14,10 @@ const Graph = () => {
             {
                 label: 'Units Sold',
                 data: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7],
-                borderColor: 'yellow',
-                backgroundColor: 'yellow',
-                pointBackgroundColor: 'yellow',
-                pointBorderColor: 'yellow',
+                borderColor: '#eea837',
+                backgroundColor: '#eea837',
+                pointBackgroundColor: '#eea837',
+                pointBorderColor: '#eea837',
                 pointRadius: (context) => (context.dataIndex === 7 ? '5' : '0'),
                 fill: false,
             },
@@ -72,7 +72,7 @@ const Graph = () => {
                     pointStyle: 'circle',
                     color: 'white',
                     font: {
-                        size: 10, 
+                        size: 14, 
                     },
                 },
             },
@@ -81,8 +81,10 @@ const Graph = () => {
 
     return (
         <main className='graph-container'>
-            <p>Total sales</p>
+            <div className='graph-responsive'>
+            <p style={{paddingBottom: '1%'}}>Total sales</p>
             <h5>$0.00</h5>
+            </div>
             <div className='graph'>
             <Line data={data} options={options} />
             </div>

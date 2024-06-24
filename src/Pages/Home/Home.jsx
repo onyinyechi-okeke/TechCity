@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Home.css'
 import moneybag from '../../assets/moneybag.svg'
 import handshake from '../../assets/handshake.svg'
@@ -7,10 +8,17 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 function Home() {
 const HomeLinks = [
-    {id:1, icon:moneybag, h:"Become an Investor", p:"Invest in Tech City Africa and earn good ROI" },
-    {id:2, icon:handshake, h:"Become a Marketer", p:"Join our team of marketers to earn commision and bonuses" },
-    {id:3, icon:construction, h:"Become a Volunteer", p:"Have a skill that could be beneficial to us? We will like to welcome you" }
-]
+    {id:1, icon:moneybag, h:"Become an Investor", p:"Invest in Tech City Africa and earn good ROI", data:'/InvestorSignUp'},
+    {id:2, icon:handshake, h:"Become a Marketer", p:"Join our team of marketers to earn commision and bonuses", data:'/MarketerSignUp'},
+    {id:3, icon:construction, h:"Become a Volunteer", p:"Have a skill that could be beneficial to us? We will like to welcome you", data:'/VolunteerSignUp' }
+];
+
+const navigate = useNavigate();
+
+const handleNavigate = (url) => {
+  navigate(url);
+}
+
   return (
     <div className='home-container home-container1'>
         <div className='home-header'>
@@ -19,8 +27,8 @@ const HomeLinks = [
         </div>
 
         <div className='home-stabilize'>
-            {HomeLinks.map(({id, icon, h, p})=>(
-                <div className='home-align' key={id}>
+            {HomeLinks.map(({id, icon, h, p, data})=>(
+                <div className='home-align' key={id} data-url={data} onClick={() => handleNavigate(data)}>
                     
                     <div className='home-align1'>
                     <div><img src={icon} alt='an icon' /></div>

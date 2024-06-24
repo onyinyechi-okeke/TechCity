@@ -3,10 +3,10 @@ import InvestorRightSide from './InvestorRightSide';
 import InvestorCenter from './InvestorCenter';
 import MarketerRightSide from './MarketerRightSide';
 
-function MainInvestorDashBoard() {
+function MainInvestorDashBoard({MS, handleClick}) {
   return (
     <div className='mid-container'>
-        <InvestorCenter />
+        <InvestorCenter MS={MS} handleClick={handleClick}/>
         <InvestorRightSide />
     </div>
   )

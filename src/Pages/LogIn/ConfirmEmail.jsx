@@ -1,7 +1,7 @@
 import React from 'react'
 import './LogIn.css'
 
-function ConfirmEmail() {
+function ConfirmEmail({handleClick, CP}) {
   return (
     <main className='home-container cp-container'>
         <div className='cp-header'>
@@ -16,7 +16,7 @@ function ConfirmEmail() {
             className='signup-rest signup-input signup-input1'/>
         </div> 
 
-           <button className='signup-rest signup-btn'>Confirm Email</button>
+           <button className='signup-rest signup-btn' onClick={() => handleClick(CP)}>Confirm Email</button>
            
     </form>
 

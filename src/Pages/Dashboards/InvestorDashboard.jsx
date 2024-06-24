@@ -5,7 +5,7 @@ import MainInvestorDashBoard from './MainInvestorDashBoard'
 import activity from '../../assets/Activity.svg'
 import piechart from '../../assets/pie-chart.svg'
 
-function InvestorDashboard() {
+function InvestorDashboard({MS, handleClick}) {
 
   const navItemsInvestor = [
     { id: 1, icon: activity, p: 'Edit Account' },
@@ -14,7 +14,7 @@ function InvestorDashboard() {
   return (
     <div style={{width: '100%', height: '100vh'}}>
       <SideBar navItems={navItemsInvestor}/>
-      <MainInvestorDashBoard />
+      <MainInvestorDashBoard MS={MS} handleClick={handleClick} />
     </div>
   )
 }

@@ -4,7 +4,7 @@ import piechart from '../../assets/pie-chart.svg'
 import SideBar from './SideBar';
 import MainMarketerDashboard from './MainMarketerDashboard';
 
-function MarketerDashboard() {
+function MarketerDashboard({IS, handleClick}) {
     
     const navItemsMarketer = [
         { id: 1, icon: activity, p: 'Edit Account' },
@@ -14,7 +14,7 @@ function MarketerDashboard() {
   return (
     <div>
         <SideBar navItems={navItemsMarketer}/>
-        <MainMarketerDashboard />
+        <MainMarketerDashboard IS={IS} handleClick={handleClick}/>
     </div>
   )
 }

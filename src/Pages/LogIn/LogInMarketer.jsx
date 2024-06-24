@@ -1,7 +1,7 @@
 import React from 'react'
 import './LogIn.css'
 
-function LogIn({isPasswordVisible, togglePassword, handleClick, ID, CE, IS}) {
+function LogInMarketer({isPasswordVisible, togglePassword, handleClick, MD, CE, MS}) {
   return (
     <main className='home-container login-container'>
         <div className='login-header'>
@@ -32,8 +32,8 @@ function LogIn({isPasswordVisible, togglePassword, handleClick, ID, CE, IS}) {
             <p onClick={() => handleClick(CE)}>Forgot Password?</p>
             </div>
 
-           <button className='signup-rest signup-btn' onClick={() => handleClick(ID)}>Log In</button>
-           <div className='signup-last'><p>Already have an account? <span onClick={() => handleClick(IS)}>Register</span></p></div>
+           <button className='signup-rest signup-btn' onClick={() => handleClick(MD)}>Log In</button>
+           <div className='signup-last'><p>Already have an account? <span onClick={() => handleClick(MS)}>Register</span></p></div>
     </form>
 
         
@@ -41,4 +41,4 @@ function LogIn({isPasswordVisible, togglePassword, handleClick, ID, CE, IS}) {
   )
 }
 
-export default LogIn
+export default LogInMarketer;

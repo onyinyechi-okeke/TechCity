@@ -1,8 +1,8 @@
 import React from 'react'
 
-function HeaderButton({B}) {
+function HeaderButton({B, MS, handleClick}) {
   return (
-    <div className='HB'>
+    <div className='HB' onClick={()=> handleClick(MS)}>
         <button>{B}</button>
     </div>
   )

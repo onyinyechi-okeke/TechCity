@@ -9,7 +9,7 @@ import MarketerButton from '../../Components/Buttons/MarketerButton'
 
 
 
-function MarketerRightSide() {
+function MarketerRightSide({IS, handleClick}) {
   const MRS = [
     { id:1, img: person1, p: 'Amanda sold 1 unit just now' },
     { id:2, img: person2, p: 'Kingsley sold 20 units 2mins ago' },
@@ -41,7 +41,7 @@ return (
           </div>
         ))}
       </div>
-        <MarketerButton />
+        <MarketerButton IS={IS} handleClick={handleClick}/>
       </div>
   )
 }

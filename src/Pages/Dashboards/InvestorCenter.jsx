@@ -7,9 +7,10 @@ import chart1 from '../../assets/chart1.png'
 import progress from '../../assets/progress.png'
 import addwhite from '../../assets/add-white.png'
 import Transaction from '../../Components/Transaction/Transaction';
+import InvestorButton from '../../Components/Buttons/InvestorButton';
 
 
-function InvestorCenter() {
+function InvestorCenter({MS, handleClick}) {
 
    const Chart = [
     { id:1, h: 'Total Invested', backgroundColor: '#EEA837', img: chart1},
@@ -31,14 +32,14 @@ function InvestorCenter() {
       
       <section className='ic-header'>
         <p>Dashboard</p>
-        <HeaderButton B={B} />
+        <HeaderButton B={B} MS={MS} handleClick={handleClick} />
       </section>
 
       <section className='ic-align'>
         <div><h3>Assets</h3></div>
 
         <div className='ic-align1'>
-          <div className='ic-align2'>
+          <div className='ic-none'>
             <img src={persona} alt='a profile' />
             <p>Kingsley Orji</p>
           </div>
@@ -52,7 +53,7 @@ function InvestorCenter() {
           <p className='ic-headerp'>{h}</p>
           <div className='ic-align4' style={{backgroundColor}}>
             <div className='ic-align5'>
-              <h4>$0.00</h4>
+              <h4 style={{fontSize: '2rem'}}>$0.00</h4>
               <img src={img} alt='a chart' />
             </div>
   
@@ -68,6 +69,10 @@ function InvestorCenter() {
           </div>
         </div>
       ))}
+      </section>
+
+      <section className='visible'>
+        <InvestorButton />
       </section>
       
      <section className='ic-adjust1'>

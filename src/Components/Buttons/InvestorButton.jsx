@@ -6,8 +6,8 @@ import './Button.css'
 function InvestorButton() {
   return (
     <div className='sidebar-buttondiv'>
-        <button style={{marginTop: '2%', fontSize: '12px', color: 'rgb(205, 199, 199)'}}><img src={sell} alt='an icon' />Sell Shares</button>
-            <button style={{backgroundColor: 'white', color: 'black', marginTop: '2%', fontSize: '12px', fontWeight: '600'}}>
+        <button style={{marginTop: '2%', color: 'rgb(205, 199, 199)'}}><img src={sell} alt='an icon' />Sell Shares</button>
+            <button style={{backgroundColor: 'white', color: 'black', marginTop: '2%', fontWeight: '600'}}>
               <img src={addblack} alt='an icon' />Buy Shares</button>
     </div>
   )
