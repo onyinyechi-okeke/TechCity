@@ -571,20 +571,20 @@
 
 @media (max-width: 430px) {
  .ic-container {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 34% 3% 0 3%;
  }
 
  .ic-align10 h4 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
  }
 
  .ic-align10 button {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .ic-align4 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 

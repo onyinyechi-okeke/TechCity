@@ -86,11 +86,19 @@
 
     .home-align1 p {
         padding-top: 3%;
+        font-size: 0.9rem;
+    }
+
+    .home-align1 h4 {
         font-size: 1.1rem;
     }
 
     .home-header h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+      }
+
+      .home-header p {
+        font-size: 1.3rem;
       }
       
 }
