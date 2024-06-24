@@ -94,7 +94,7 @@ body {
   .navbarmobile-align {
     position: absolute;
     top: 0;
-    z-index: 2;
+    z-index: 999;
     width: 100%;
     height: 100%;
     background-color: #0B0C0C;
@@ -161,14 +161,18 @@ body {
   cursor: pointer;
   border-radius: 4px;
   margin-top: 4%;
-   border: none;
-   outline: none;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 }
 
 @media (max-width: 430px) {
   .navbarmobile-align {
-    padding: 4% 3% 6% 2%;
+    padding: 4% 3% 12% 2%;
   }
 }
   

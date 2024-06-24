@@ -18,6 +18,7 @@
     .checkbox-div {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .checkbox-div p{
@@ -61,7 +62,7 @@
             padding: 35% 6% 19% 6%;  
           }
 
-          .checkbox-div p {
-            font-size: 0.7rem;
+          .checkbox-div p, .checkbox-container label {
+            font-size: 0.8rem;
           }
     }
