@@ -43,10 +43,6 @@
     background-color: #363636;
     color: white;
     border-radius: 4px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .signup-input1 {
@@ -73,10 +69,6 @@
     width: 100%;
     padding: 1rem 2rem;
     border-radius: 4px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .signup-btn {
@@ -87,10 +79,6 @@
     border-radius: 4px;
     font-size: 1.2rem;
     cursor: pointer;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .signup-btn:hover {
@@ -145,10 +133,6 @@ input:-webkit-autofill,
     padding: 10px 12px;
     margin-bottom: 2%;
     border-radius: 4px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .password-align span {
@@ -209,10 +193,6 @@ input:-webkit-autofill,
     border: 1px solid #ccc;
     background-color: transparent;
     border-radius: 3px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 
@@ -315,4 +295,5 @@ input:-webkit-autofill,
 
     .custom-checkbox + .custom-label {
       font-size: 0.8rem;
+}
 }
