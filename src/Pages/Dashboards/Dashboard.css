@@ -439,10 +439,6 @@
   .ic-align4 {
     border-radius: 6px;
     padding: 5% 6%;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
 }
 
 .ic-align4 {
@@ -552,7 +548,7 @@
   }
 
   .mc-buttondiv button{
-    background-color: #363636;
+  background-color: #363636;
   border: none;
   color: white;
   width: 100%;
@@ -565,13 +561,17 @@
   cursor: pointer;
   border-radius: 4px;
   margin-bottom: 2%;
-  }
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
   
 }
 
 @media (max-width: 430px) {
  .ic-container {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 34% 3% 0 3%;
  }
 
@@ -623,8 +623,17 @@
   font-size: 0.8rem;
 }
 
-.mobile-responsive, .ic-align h3 {
+.mobile-responsive {
   font-size: 1rem;
+}
+
+.ic-align h3 {
+  font-size: 1.2rem;
+}
+
+.ic-headerp select {
+  font-size: 1.1rem;
+  background-color: #0B0B0B;
 }
 
 }
