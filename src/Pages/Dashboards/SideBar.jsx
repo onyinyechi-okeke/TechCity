@@ -2,7 +2,7 @@ import React from 'react'
 import user from '../../assets/User.svg'
 import help from '../../assets/help-circle.svg'
 import hero from '../../assets/hero2.svg'
-import withdraw from '../../assets/withdraw.png'
+import withdraw from '../../assets/withdraw-inactive.svg'
 import { CiHome } from "react-icons/ci";
 
 function SideBar({navItems}) {
@@ -41,7 +41,7 @@ function SideBar({navItems}) {
 
           <div className='sidebar-buttondiv'>
             <button style={{width: '95%'}}><img src={help} alt='an icon' />Guide</button>
-            <button style={{backgroundColor: ' #EEA837', color: 'black', fontWeight: '600', marginTop: '4%', width: '95%'}}>
+            <button style={{  marginTop: '4%', width: '95%'}}>
               <img src={withdraw} alt='an icon' />Withdraw</button>
             </div>
             </div>

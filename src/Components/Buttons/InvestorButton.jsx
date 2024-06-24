@@ -1,6 +1,6 @@
 import React from 'react'
 import addblack from '../../assets/add-black.png'
-import sell from '../../assets/sell.png'
+import sell from '../../assets/sell-inactive.svg'
 import './Button.css'
 
 function InvestorButton() {
