@@ -295,5 +295,13 @@ input:-webkit-autofill,
     .home-host{
         padding: 32% 6% 10% 6%;
     }
+
+    .signup-input::placeholder {
+        font-size: 1rem;
+    }
+
+    .signup-input {
+        font-size: 1.1rem;
+    }
     
 }
