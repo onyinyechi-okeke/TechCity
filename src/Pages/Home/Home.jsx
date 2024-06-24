@@ -20,7 +20,7 @@ const handleNavigate = (url) => {
 }
 
   return (
-    <div className= ' home-container home-container1' style={{width: '47%'}}>
+    <div className= ' home-container home-container1' style={{width: '47%', marginTop: '7%', backgroundColor: '#0b0b0b', marginLeft:'auto', marginRight: 'auto', color: 'white', borderRadius: '4px'}}>
         <div className='home-header'>
             <h2>Welcome to Tech City Africa</h2>
             <p>Be part of the fastest growing real estate in Africa</p>
