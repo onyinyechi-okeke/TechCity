@@ -30,13 +30,13 @@ function InvestorRightSide() {
       
       <div className='irs-align'>
         <h5>Investor of the week</h5>
-        <img src={weekhero} alt='an image' style={{marginTop: '2%'}}/>
-        <h5 style={{marginTop: '3%'}}>Kingsley Whyte</h5>
-        <p style={{marginTop: '3%'}}>Joined June 22nd 2024</p>
-        <p className='irs-color' style={{marginTop: '3%'}}>View Statistics</p>
+        <img src={weekhero} alt='an image' style={{marginTop: '3%'}}/>
+        <h5 style={{marginTop: '4%'}}>Kingsley Whyte</h5>
+        <p style={{marginTop: '4%'}}>Joined June 22nd 2024</p>
+        <p className='irs-color' style={{marginTop: '4%'}}>View Statistics</p>
       </div>
 
-      <h5 style={{margin: '2% 0'}}>Account</h5>
+      <h5 style={{margin: '3% 0'}}>Account</h5>
       <div className='irs-stabilize'>
       {IRS1.map(({id, h, p})=>(
         <div key={id} className='irs-align1'>
@@ -46,7 +46,7 @@ function InvestorRightSide() {
       ))}
       </div>
 
-      <h5 style={{margin: '3% 0'}}>Priority Access</h5>
+      <h5 style={{margin: '4% 0'}}>Priority Access</h5>
       <div className='irs-stabilize'>
       {IRS2.map(({id, h, p})=>(
         <div key={id} className='irs-align1'>
