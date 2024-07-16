@@ -541,6 +541,11 @@
   .mc-responsive3 {
     display: none;
   }
+
+  .sidebar-buttondiv button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+} 
   
   .mc-responsive4 {
     display: flex;
@@ -581,6 +586,10 @@
   border-radius: 4px;
   margin-top: 8%;
   margin-bottom: 6%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
   
 }
