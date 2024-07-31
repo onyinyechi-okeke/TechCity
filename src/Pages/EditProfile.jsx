@@ -46,7 +46,7 @@ function EditProfile({handleClick, CE }) {
             <input type= "password"
             placeholder='Password'
             className='signup-rest1 signup-input'/>
-            <span>Change Paasword</span>
+            <span onClick={()=> handleClick(CE)}>Change Password</span>
             </div>
          
             <div className="checkbox-container" style={{margin: '4% 0'}}>
@@ -54,7 +54,7 @@ function EditProfile({handleClick, CE }) {
                 <label for="acceptTerms" class="custom-label">Remember me</label>
             </div>
 
-           <button className='signup-rest signup-btn' onClick={()=> handleClick(CE)}>Save Changes</button>
+           <button className='signup-rest signup-btn'>Save Changes</button>
     </form>
 
         
