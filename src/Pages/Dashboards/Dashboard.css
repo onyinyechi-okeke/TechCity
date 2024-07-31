@@ -56,6 +56,7 @@
   font-size: 1.2rem;
   cursor: pointer;
   border-radius: 4px;
+  
 }
 
 .sidebar-align2:hover, .sidebar-align3:hover {
@@ -71,6 +72,7 @@
     display: flex;
     justify-content: space-between;
     color: rgb(240, 233, 233);
+    position: relative;
 }
 
 /* InvestorRightSide & MarketerRightSide design starts */
@@ -79,11 +81,13 @@
     flex-direction: column;
     flex: 0.29;
     width: 21%;
-    height: 87.5vh;
+    height: 87%;
     background-color: #0B0C0C;
     position: fixed;
     right: 0;
-    margin: 0 1% 2% 0;
+    top: 12%;
+    bottom: 0;
+    margin: 0 1% 12% 0;
     padding: 1% 2%;
     border-radius: 6px;
 }
@@ -188,6 +192,7 @@
 .ic-align4 {
   padding: 3% 5%;
   border-radius: 6px;
+
 }
 
 .ic-headerp {
@@ -245,6 +250,7 @@
   padding: 2.5% 4%;
   text-align: center;
   border-radius: 6px;
+
 }
 
 .ic-align10 h4 {
@@ -264,6 +270,7 @@
   font-size: 1rem;
   font-weight: 600;
   border-radius: 4px;
+
 }
 
 .ic-align h3 {
@@ -299,10 +306,7 @@
   padding: 5px 8px;
   gap: 10px;
   border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+
 }
 
 .mc-align1 img {
@@ -368,7 +372,7 @@
   display: none;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1636px) {
    .sidebar-container {
     margin-top: 7%;
     font-size: 1.1rem;
@@ -447,10 +451,7 @@
   .ic-align4 {
     border-radius: 6px;
     padding: 5% 6%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+
 }
 
 .ic-align4 {

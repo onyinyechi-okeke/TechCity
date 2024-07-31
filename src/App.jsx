@@ -18,6 +18,7 @@ import BuyFixedShares from './Pages/BuyShares/BuyFixedShares';
 import BuyApartment from './Pages/BuyShares/BuyApartment';
 import Withdraw from './Pages/Withdraw/Withdraw';
 import AddAccount from './Pages/Withdraw/AddAccount';
+import SellShares from './Pages/SellShares';
 
 function App() {
 
@@ -79,6 +80,7 @@ function App() {
       <Route path='/buyappartment' element={ <BuyApartment show={show} handleShow={handleShow} /> } />
       <Route path='/withdraw' element={ <Withdraw ID={ID} handleClick={handleClick} selectedPayment={selectedPayment} setSelectedPayment={setSelectedPayment} /> } />
       <Route path='/addaccount' element={ <AddAccount /> } />
+      <Route path='/sellshares' element={ <SellShares /> } />
       </Routes>
     </div>
   )
