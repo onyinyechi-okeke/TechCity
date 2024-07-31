@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './LogIn.css'
 
 function ConfirmPassword({isPasswordVisible, togglePassword}) {
@@ -24,7 +24,7 @@ function ConfirmPassword({isPasswordVisible, togglePassword}) {
             <span onClick={togglePassword}>{isPasswordVisible ? "Hide" : "Show"}</span>
             </div>
          
-           <button className='signup-rest signup-btn'>Log In</button>
+           <button className='signup-rest signup-btn'>Save Changes</button>
            
     </form>
 

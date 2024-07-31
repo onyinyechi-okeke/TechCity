@@ -24,10 +24,10 @@ function LogIn({isPasswordVisible, togglePassword, handleClick, ID, CE, IS}) {
             <span onClick={togglePassword}>{isPasswordVisible ? "Hide" : "Show"}</span>
             </div>
          
-         <div className='checkbox-div'>
-            <div class="checkbox-container" style={{marginBottom: '3%'}}>
-                <input type="checkbox" id="acceptTerms" class="custom-checkbox" />
-                <label for="acceptTerms" class="custom-label">Remember me</label>
+         <div className='checkbox-div' >
+            <div className="checkbox-container" >
+                <input type="checkbox" id="acceptTerms" className="custom-checkbox" />
+                <label for="acceptTerms" className="custom-label">Remember me</label>
             </div>
             <p onClick={() => handleClick(CE)}>Forgot Password?</p>
             </div>

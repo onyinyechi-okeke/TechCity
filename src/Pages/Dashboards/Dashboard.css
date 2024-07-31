@@ -11,7 +11,7 @@
     background-color: #0B0C0C;
     color: white;
     padding: 1.5% 0 7% 1.3%;
-    margin-top: 5.5%;
+    margin-top: 5.1%;
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@
 .mid-container {
     display: flex;
     flex-grow: 1;
-    margin: 5.5% 0 0 18.5%;
+    margin: 4.8% 0 0 18.5%;
     display: flex;
     justify-content: space-between;
     color: rgb(240, 233, 233);
@@ -188,10 +188,6 @@
 .ic-align4 {
   padding: 3% 5%;
   border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
 }
 
 .ic-headerp {
@@ -249,10 +245,6 @@
   padding: 2.5% 4%;
   text-align: center;
   border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
 }
 
 .ic-align10 h4 {
@@ -272,10 +264,6 @@
   font-size: 1rem;
   font-weight: 600;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 
 .ic-align h3 {
@@ -296,6 +284,12 @@
 .mc-align {
   display: flex;
   gap: 5rem;
+  align-items: center;
+}
+
+.mc-responsive2 {
+ display: flex;
+ align-items: center;
 }
 
 .mc-align1 {
@@ -420,6 +414,7 @@
   }
 
   .mid-container {
+    position: relative;
     width: 100%;
     margin: 0;
     color: rgb(240, 233, 233);
@@ -441,6 +436,7 @@
   
   .ic-header {
     display: block;
+  
   }
   
   .ic-adjust {
@@ -451,10 +447,10 @@
   .ic-align4 {
     border-radius: 6px;
     padding: 5% 6%;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .ic-align4 {
@@ -520,8 +516,10 @@
   }
   
   .mc-align {
+    width: 100%;
     flex-direction: column-reverse;
     gap: 0.4rem;
+    justify-content: start;
   }
 
   .mc-responsive1 {
@@ -529,12 +527,13 @@
   }
 
   .mc-responsive {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .mc-responsive2 {
-    display: flex;
     gap: 1rem;
   }
 

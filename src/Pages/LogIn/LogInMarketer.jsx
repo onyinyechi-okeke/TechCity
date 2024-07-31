@@ -25,9 +25,9 @@ function LogInMarketer({isPasswordVisible, togglePassword, handleClick, MD, CE, 
             </div>
          
          <div className='checkbox-div'>
-            <div class="checkbox-container" style={{marginBottom: '3%'}}>
-                <input type="checkbox" id="acceptTerms" class="custom-checkbox" />
-                <label for="acceptTerms" class="custom-label">Remember me</label>
+            <div className="checkbox-container" style={{marginBottom: '3%'}}>
+                <input type="checkbox" id="acceptTerms" className="custom-checkbox" />
+                <label for="acceptTerms" className="custom-label">Remember me</label>
             </div>
             <p onClick={() => handleClick(CE)}>Forgot Password?</p>
             </div>

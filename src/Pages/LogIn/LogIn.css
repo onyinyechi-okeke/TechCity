@@ -1,5 +1,6 @@
 .login-container {
     padding: 7% 3%;
+    margin-top: 7%;
 }
 
 .login-header {
@@ -23,12 +24,13 @@
 
     .checkbox-div p{
         color: #EEA837;
-        font-size: 1.1rem;
         cursor: pointer;
+        margin-bottom: 2%;
     }
 
     .cp-container {
       padding: 3% 3% 19% 3%;  
+      margin-top: 7%;
     }
 
     .cp-header {

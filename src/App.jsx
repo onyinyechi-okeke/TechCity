@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar';
 import Home from './Pages/Home/Home';
@@ -11,6 +11,13 @@ import ConfirmPassword from './Pages/LogIn/ConfirmPassword';
 import ConfirmEmail from './Pages/LogIn/ConfirmEmail';
 import InvestorDashboard from './Pages/Dashboards/InvestorDashboard';
 import MarketerDashboard from './Pages/Dashboards/MarketerDashboard';
+import AddNok from './Pages/Nok/AddNok';
+import EditProfile from './Pages/EditProfile';
+import BuyShares from './Pages/BuyShares/BuyTCAShares';
+import BuyFixedShares from './Pages/BuyShares/BuyFixedShares';
+import BuyApartment from './Pages/BuyShares/BuyApartment';
+import Withdraw from './Pages/Withdraw/Withdraw';
+import AddAccount from './Pages/Withdraw/AddAccount';
 
 function App() {
 
@@ -27,6 +34,15 @@ function App() {
   const togglePassword = () => {
     setIsPasswordVisible(!isPasswordVisible);
   };
+
+  const [show, setShow] = useState(false);
+
+  const handleShow = () => {
+    setShow (!show);
+  }
+
+  const [selectedPayment, setSelectedPayment] = useState(null);
+
 
     const ID = '/InvestorDashboard'
     const MD = '/MarketerDashboard'
@@ -56,6 +72,13 @@ function App() {
        <Route path = '/changepassword' element={<ConfirmPassword isPasswordVisible={isPasswordVisible} togglePassword={togglePassword} /> } />
       <Route path='/InvestorDashboard' element={ <InvestorDashboard MS={MS} handleClick={handleClick} /> } />
       <Route path='/MarketerDashboard' element={ <MarketerDashboard IS={IS} handleClick={handleClick} /> } />
+      <Route path='/AddNok' element={ <AddNok  /> } />
+      <Route path = '/editprofile' element={<EditProfile  handleClick={handleClick} CE={CE} /> } />
+      <Route path='/buyTCAshares' element={ <BuyShares show={show} handleShow={handleShow} selectedPayment={selectedPayment} setSelectedPayment={setSelectedPayment} /> } />
+      <Route path='/buyfixedshares' element={ <BuyFixedShares /> } />
+      <Route path='/buyappartment' element={ <BuyApartment show={show} handleShow={handleShow} /> } />
+      <Route path='/withdraw' element={ <Withdraw ID={ID} handleClick={handleClick} selectedPayment={selectedPayment} setSelectedPayment={setSelectedPayment} /> } />
+      <Route path='/addaccount' element={ <AddAccount /> } />
       </Routes>
     </div>
   )

@@ -32,7 +32,7 @@ function MarketerCenter() {
             <img src={persona} alt='a profile' />
             <p className='mc-responsive3'>Kingsley Orji</p>
           </div>
-          <NokTrigger />
+          <NokTrigger  />
           </div>
           </div>
         <HeaderButton B={B} />

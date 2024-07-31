@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
 
 body {
     background-color: #363636;
@@ -19,14 +16,14 @@ body {
     color: rgb(243, 240, 240);
     background-color: #0B0C0C;
     width: 100%;
-    height: 11%;
+    height: 96px;
     position: fixed;
     top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 2;
-    padding: 0 2%;
+    padding: 0 2% 0 5%;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -167,6 +164,19 @@ body {
   border: none;
   outline: none;
 }
+
+.account-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: #0B0C0C;
+    color: white;
+    padding: 6% 6% 25% 6%;
+}
+
 }
 
 @media (max-width: 430px) {

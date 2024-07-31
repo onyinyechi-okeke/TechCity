@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom'
 import home from '../../assets/Home.svg'
 import user from '../../assets/User.svg'
 import activity from '../../assets/Activity.svg'
@@ -38,13 +38,19 @@ function NavContent({toggleMobileMenu}) {
                 <img src={hero} alt='an icon' />
                 <p className='adjust-colour'>Kingsley Orji</p>
                 </div>
-
-                {NavMobile1.map(({id, icon, p})=>(
-                  <div key={id} className='navbarmobile-align3'>
-                  <img src={icon} alt='an icon' />
-                  <p>{p}</p>
+                 
+                <Link to="/editprofile" style={{color: 'white', textDecoration: 'none'}} onClick={toggleMobileMenu}>
+                  <div className='navbarmobile-align3'>
+                  <img src={activity} alt='an icon' />
+                  <p>Edit Account</p>
                   </div>
-                ))}
+                  </Link>
+
+                  <div className='navbarmobile-align3'>
+                  <img src={piechart} alt='an icon' />
+                  <p>Switch to Marketer's Account</p>
+                  </div>
+              
               </div>
           </div>
 

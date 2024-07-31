@@ -53,9 +53,9 @@ function InvestorSignUp({isPasswordVisible, togglePassword, ID, handleClick, LI}
             <span onClick={togglePassword}>{isPasswordVisible ? "Hide" : "Show"}</span>
             </div>
          
-            <div class="checkbox-container">
-                <input type="checkbox" id="acceptTerms" class="custom-checkbox" />
-                <label for="acceptTerms" class="custom-label">Remember me</label>
+            <div className="checkbox-container">
+                <input type="checkbox" id="acceptTerms" className="custom-checkbox" />
+                <label for="acceptTerms" className="custom-label">Remember me</label>
             </div>
 
            <button className='signup-rest signup-btn' onClick={() => handleClick(ID)}>Register as an Investor</button>

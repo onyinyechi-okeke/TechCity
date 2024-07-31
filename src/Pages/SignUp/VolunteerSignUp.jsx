@@ -57,8 +57,8 @@ function VolunteerSignUp({isPasswordVisible, togglePassword}) {
             <span onClick={togglePassword}>{isPasswordVisible ? "Hide" : "Show"}</span>
             </div>
          
-            <div class="checkbox-container">
-                <input type="checkbox" id="acceptTerms" class="custom-checkbox" />
+            <div className="checkbox-container">
+                <input type="checkbox" id="acceptTerms" className="custom-checkbox" />
                 <label for="acceptTerms" class="custom-label">Remember me</label>
             </div>
 

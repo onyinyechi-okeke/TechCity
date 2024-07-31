@@ -1,10 +1,48 @@
 .investor-container {
     padding: 2% 3%;
+    margin-top: 7%;
+}
+
+.editprofile-container {
+    padding: 2% 3%;
+    margin-top: 4.5%;
+    width: 42%;
+    background-color: #0b0b0b;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 4px;
+}
+
+.editprofile-header {
+    margin: 8% 0 5% 0;
+    text-align: center;
+    font-weight: 700;   
+}
+
+.editprofile-img {
+    margin: 2% 0;
+}
+
+.editprofile-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.editprofile-align1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.editprofile-responsive {
+    display: none;
 }
 
 .home-host {
     width: 42%;
-    margin-top: 7%;
     background-color: #0b0b0b;
     margin-left: auto;
     margin-right: auto;
@@ -14,6 +52,7 @@
 
 .home-host1 {
     padding: 6% 3%;
+    margin-top: 7%;
 }
 
 .home-header .investor-p {
@@ -43,6 +82,10 @@
     background-color: #363636;
     color: white;
     border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 .signup-input1 {
@@ -98,7 +141,6 @@
 }
 
 .signup-last {
-    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -108,7 +150,6 @@
 }
 
 .signup-last1 {
-    font-size: 1rem;
     text-align: center;
 }
 
@@ -118,11 +159,12 @@
 
 .signup-input::placeholder {
     color: rgb(206, 199, 199);
-    font-size: 1.2rem;
+    font-size: 16px;
 }
 
 .specific-input::placeholder {
     color: rgb(147, 145, 145); 
+    font-size: 16px;
 }
 
 input:-webkit-autofill,
@@ -148,15 +190,11 @@ input:-webkit-autofill,
 }
 
 .password-align span {
-    font-size: 1.1rem;
     margin-right: 10px;
     color: #EEA837;
     cursor: pointer;
 }
 
-.signup-rest1 span {
-    font-size: 1rem;
-}
 
 .signup-input {
     font-size: 1.2rem;
@@ -180,7 +218,7 @@ input:-webkit-autofill,
 .checkbox-container {
     display: flex;
     align-items: center;
-    margin-bottom: 2%;
+    margin: 3% 0;
 }
 
 .custom-checkbox {
@@ -229,9 +267,24 @@ input:-webkit-autofill,
     -o-transform: rotate(45deg);
 }
 
+@media (max-width: 1280px) {
+
+.editprofile-container {
+    padding: 2% 3%;
+    margin-top: 6.5%;
+}
+
+}
+
+
 @media (max-width: 1024px) {
     .investor-container {
         padding: 20% 6% 10% 10%;
+    }
+
+    .editprofile-container {
+        padding: 13% 6% 10% 6%;
+        width: 100%;
     }
     
     .home-host {
@@ -268,6 +321,13 @@ input:-webkit-autofill,
     padding: 30% 6% 8% 6%;
     }
 
+    .editprofile-container {
+        width: 100%;
+        padding: 0 6% 8% 6%;
+        margin-top: 0;
+    }
+
+  
     .signup-input1, .signup-rest, .signup-select {
         margin-bottom: 5%;
     }
@@ -322,5 +382,20 @@ input:-webkit-autofill,
 
    .signup-rest1 span {
     font-size: 1rem;
+   }
+
+   .editprofile-responsive {
+    margin-top: 25%;
+    display: flex;
+    background-color: #363636;
+    width: 100%;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+   }
+
+   .editprofile-align1 {
+    display: none;
    }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import InvestorRightSide from './InvestorRightSide';
 import InvestorCenter from './InvestorCenter';
-import MarketerRightSide from './MarketerRightSide';
+
 
 function MainInvestorDashBoard({MS, handleClick}) {
   return (

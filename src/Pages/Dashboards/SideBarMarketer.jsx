@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import user from '../../assets/User.svg'
 import help from '../../assets/help-circle.svg'
@@ -43,7 +42,7 @@ function SideBar () {
 
                   <div className='sidebar-align3'>
                   <img src={piechart} alt='an icon' />
-                  <p>Switch to Investor's Account</p>
+                  <p>Switch to Marketer's Account</p>
                   </div>
                 
                 </div>
@@ -51,10 +50,8 @@ function SideBar () {
 
           <div className='sidebar-buttondiv'>
             <button style={{width: '95%'}}><img src={help} alt='an icon' />Guide</button>
-            <Link to='/withdraw' style={{textDecoration: 'none'}}>
             <button style={{  marginTop: '4%', width: '95%'}}>
               <img src={withdraw} alt='an icon' />Withdraw</button>
-              </Link>
             </div>
             </div>
           </div>
